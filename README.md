@@ -14,17 +14,12 @@
 
 - 🌱 I’m currently learning **HTML and CSS**
 
-- 👯 I’m looking to collaborate on **---------------------------------------**
-
-- 🤝 I’m looking for help with **---------------------------------------**
-
 - 👨‍💻 All of my projects are available at [https://github.com/002Coding](https://github.com/002Coding)
 
 - 📝 I regularly write articles on [https://sites.google.com/view/marcosanz/home?authuser=0](https://sites.google.com/view/marcosanz/home?authuser=0)
 
 - 💬 Ask me about **----------------------------------------------------**
 
-- 📫 How to reach me **marcosanzcontact@gmail.com**
 
 - 📄 Know about my experiences [----------------------------------------------------](----------------------------------------------------)
 
