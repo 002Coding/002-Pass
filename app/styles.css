@@ -6,34 +6,34 @@
 
 body {
   background-image: url(../assets/images/2024-07-25_21.54.42.png);
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(87, 74, 74);
   overflow: hidden;
 }
 
 /*Barra superior y menu*/
-.header {
+.appname {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
-  background-color: rgba(41, 41, 41, 0.904);
-  border-radius: 16px;
 }
-
 .h1 {
   display: flex;
+  position: relative;
+  top: 80px;
   font-family: "font1";
-  font-size: 70px;
+  font-size: 30px;
   letter-spacing: -2px;
   color: white;
 }
+
 .logo {
-  display: flex;
-  position: absolute;
+  display: flex;  
+  position: fixed;
+  top: 0px;
+  cursor: pointer;
   width: 100px;
-  top: 8px;
-  left: 10px;
 }
+
 .GitLogo {
   display: flex;
   position: absolute;
@@ -63,7 +63,7 @@ body {
   font-family: "arial black";
   font-size: 45px;
   color: white;
-  top: 90px;
+  top: 160px;
   background-color: rgb(59, 197, 94);
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.575);
   border-radius: 16px;
@@ -134,7 +134,7 @@ body {
 
   font-size: 35px;
 
-  top: 400px;
+  top: 440px;
   left: -10px;
   background-color: rgb(70, 255, 116);
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.575);
@@ -151,8 +151,7 @@ body {
 
   font-size: 35px;
 
-  top: 400px;
-  
+  top: 440px;
 
   background-color: rgb(70, 255, 116);
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.575);
@@ -168,7 +167,7 @@ body {
 
   font-size: 35px;
 
-  top: 400px;
+  top: 440px;
   left: 10px;
 
   background-color: rgb(70, 255, 116);
@@ -204,7 +203,10 @@ body {
 /*Responsive menus*/
 @media (max-width: 780px) {
   .logo {
-    width: 0%;
+    width: 100px;
+  }
+  .h1 {
+    font-size: 30px;
   }
   .AviseCopy{
     font-size: 0%;
@@ -213,7 +215,10 @@ body {
 
 @media (max-width: 705px) {
   .logo {
-    width: 0%;
+    width: 100px;
+  }
+  .h1 {
+    font-size: 30px;
   }
   .Blogo {
     width: 0%;
@@ -221,19 +226,21 @@ body {
 }
 @media (max-width: 600px) {
   .h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
-
   .logo {
-    width: 0%;
+    width: 100px;
   }
   .Btn {
     font-size: 40px;
   }
 }
 @media (max-width: 400px) {
+  .logo {
+    width: 100px;
+  }
   .h1 {
-    font-size: 45px;
+    font-size: 30px;
   }
   .Btn {
     font-size: 20px;
