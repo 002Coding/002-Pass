@@ -1,5 +1,5 @@
 const caracteresEspeciales =
-  "!@#$%&*()_-+={}[]qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890";
+  "!@#$%&*()_-+={}[]qwertyuiopasdfghjklzxcvbnñmQWERTYUIOPASDFGHJKLZXCVBNÑM1234567890";
 document.getElementById("randomizar").addEventListener("click", function () {
   const longitud = 20;
   let frase = "";
@@ -14,7 +14,7 @@ document.getElementById("randomizar").addEventListener("click", function () {
 });
 
 const caracteresEspeciales2 =
-  "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890";
+  "qwertyuiopasdfghjklzxcvbnñmQWERTYUIOPASDFGHJKLZXCVBNÑM1234567890";
 document.getElementById("randomizar").addEventListener("click", function () {
   const longitud = 14;
   let frase = "";
@@ -29,7 +29,7 @@ document.getElementById("randomizar").addEventListener("click", function () {
 });
 
 const caracteresEspeciales3 =
-  "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
+  "qwertyuiopasdfghjklzxcvbnñmQWERTYUIOPASDFGHJKLZXCVBNÑM";
 document.getElementById("randomizar").addEventListener("click", function () {
   const longitud = 10;
   let frase = "";
