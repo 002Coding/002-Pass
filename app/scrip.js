@@ -1,7 +1,7 @@
 const caracteresEspeciales =
   "!@#$%&*()_-+={}[]qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890";
 document.getElementById("randomizar").addEventListener("click", function () {
-  const longitud = 16;
+  const longitud = 20;
   let frase = "";
   for (let i = 0; i < longitud; i++) {
     const cracterRandom = caracteresEspeciales.charAt(
@@ -16,7 +16,7 @@ document.getElementById("randomizar").addEventListener("click", function () {
 const caracteresEspeciales2 =
   "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890";
 document.getElementById("randomizar").addEventListener("click", function () {
-  const longitud = 12;
+  const longitud = 14;
   let frase = "";
   for (let i = 0; i < longitud; i++) {
     const cracterRandom = caracteresEspeciales2.charAt(
@@ -31,7 +31,7 @@ document.getElementById("randomizar").addEventListener("click", function () {
 const caracteresEspeciales3 =
   "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
 document.getElementById("randomizar").addEventListener("click", function () {
-  const longitud = 8;
+  const longitud = 10;
   let frase = "";
   for (let i = 0; i < longitud; i++) {
     const cracterRandom = caracteresEspeciales3.charAt(

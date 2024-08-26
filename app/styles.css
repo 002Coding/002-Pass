@@ -19,9 +19,9 @@ body {
 .h1 {
   display: flex;
   position: relative;
-  top: 80px;
+  top: 90px;
   font-family: "font1";
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: -2px;
   color: white;
 }
@@ -38,12 +38,12 @@ body {
   display: flex;
   position: absolute;
   cursor: pointer;
-  width: 60px;
+  width: 35px;
   background-color: white;
   padding: 5px 5px;
   border-radius: 100px;
-  bottom: 60px;
-  left: 10px;
+  bottom: 10px;
+  left: 16px;
 }
 /*Barra superior y menu*/
 
@@ -182,11 +182,8 @@ body {
 .AppData {
   display: flex;
   position: absolute;
-  height: 35px;
-  width: 247px;
-  bottom: 8px;
-  background-color: rgba(41, 41, 41, 0.904);
-  border-radius: 12px;
+  bottom: 23px;
+  left: 60px;
   z-index: 1;
 }
 .text {
@@ -206,11 +203,9 @@ body {
     width: 100px;
   }
   .h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
-  .AviseCopy{
-    font-size: 0%;
-  }
+
 }
 
 @media (max-width: 705px) {
@@ -218,15 +213,12 @@ body {
     width: 100px;
   }
   .h1 {
-    font-size: 30px;
-  }
-  .Blogo {
-    width: 0%;
+    font-size: 35px;
   }
 }
 @media (max-width: 600px) {
   .h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
   .logo {
     width: 100px;
@@ -240,7 +232,7 @@ body {
     width: 100px;
   }
   .h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
   .Btn {
     font-size: 20px;
