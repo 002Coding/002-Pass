@@ -1,3 +1,4 @@
+
 const caracteresEspeciales =
   "!@#$%&*()_-+={}[]qwertyuiopasdfghjklzxcvbnñmQWERTYUIOPASDFGHJKLZXCVBNÑM1234567890";
 document.getElementById("randomizar").addEventListener("click", function () {
@@ -41,6 +42,10 @@ document.getElementById("randomizar").addEventListener("click", function () {
   }
   document.getElementById("resultado3").innerText = frase;
 });
+
+
+
+
 
 const resultado = document.getElementById("resultado");
 const copy1 = document.getElementById("copy1");
