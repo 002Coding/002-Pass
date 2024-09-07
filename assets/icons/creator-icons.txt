@@ -1,0 +1,5 @@
+link: https://icon-icons.com/es/pack/Iconoix-Vol2---bold/3873 | https://icon-icons.com/es/pack/Iconsax-Vol1---bold/3871&page=1
+Name: iconsax
+Style: Glyph
+Licence: Free for commercial use
+Pack icons name: Iconoix Vol2 - Bold
